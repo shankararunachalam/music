@@ -1,0 +1,6 @@
+D:\Code\MusicLibrary\MusicTheorySDK\bin\Debug\MusicTheorySDK.dll
+D:\Code\MusicLibrary\MusicTheorySDK\bin\Debug\MusicTheorySDK.pdb
+D:\Code\MusicLibrary\MusicTheorySDK\obj\Debug\MusicTheorySDK.csproj.CoreCompileInputs.cache
+D:\Code\MusicLibrary\MusicTheorySDK\obj\Debug\MusicTheorySDK.dll
+D:\Code\MusicLibrary\MusicTheorySDK\obj\Debug\MusicTheorySDK.pdb
+D:\Code\MusicLibrary\MusicTheorySDK\obj\Debug\MusicTheorySDK.csprojResolveAssemblyReference.cache
