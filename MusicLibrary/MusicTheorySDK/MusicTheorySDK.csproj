@@ -40,14 +40,16 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Enums.cs" />
-    <Compile Include="Interval.cs" />
-    <Compile Include="Mode.cs" />
-    <Compile Include="Note.cs" />
+    <Compile Include="Utils\Enums.cs" />
+    <Compile Include="Core\Interval.cs" />
+    <Compile Include="Core\Mode.cs" />
+    <Compile Include="Core\Note.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <Compile Include="Scale.cs" />
-    <Compile Include="System.cs" />
-    <Compile Include="NotesFactory.cs" />
+    <Compile Include="Core\Scale.cs" />
+    <Compile Include="Core\System.cs" />
+    <Compile Include="Utils\Extensions.cs" />
+    <Compile Include="Utils\IntervalFactory.cs" />
+    <Compile Include="Utils\NotesFactory.cs" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

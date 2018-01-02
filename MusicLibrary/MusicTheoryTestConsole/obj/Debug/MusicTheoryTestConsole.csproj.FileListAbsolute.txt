@@ -1,0 +1,9 @@
+D:\Code\repos\music\MusicLibrary\MusicTheoryTestConsole\bin\Debug\MusicTheoryTestConsole.exe.config
+D:\Code\repos\music\MusicLibrary\MusicTheoryTestConsole\bin\Debug\MusicTheoryTestConsole.exe
+D:\Code\repos\music\MusicLibrary\MusicTheoryTestConsole\bin\Debug\MusicTheoryTestConsole.pdb
+D:\Code\repos\music\MusicLibrary\MusicTheoryTestConsole\bin\Debug\MusicTheorySDK.dll
+D:\Code\repos\music\MusicLibrary\MusicTheoryTestConsole\bin\Debug\MusicTheorySDK.pdb
+D:\Code\repos\music\MusicLibrary\MusicTheoryTestConsole\obj\Debug\MusicTheoryTestConsole.csprojResolveAssemblyReference.cache
+D:\Code\repos\music\MusicLibrary\MusicTheoryTestConsole\obj\Debug\MusicTheoryTestConsole.csproj.CoreCompileInputs.cache
+D:\Code\repos\music\MusicLibrary\MusicTheoryTestConsole\obj\Debug\MusicTheoryTestConsole.exe
+D:\Code\repos\music\MusicLibrary\MusicTheoryTestConsole\obj\Debug\MusicTheoryTestConsole.pdb

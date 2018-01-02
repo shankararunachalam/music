@@ -1,10 +1,7 @@
 ﻿using Microsoft.VisualStudio.TestTools.UnitTesting;
-using MusicTheorySDK;
-using System;
+using MusicTheorySDK.Core;
+using MusicTheorySDK.Utils;
 using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 
 namespace MusicTheorySDK.Tests
 {
@@ -20,18 +17,19 @@ namespace MusicTheorySDK.Tests
         [TestMethod()]
         public void GetNotationTest()
         {
-            Note note = new Note(Notes.FSharp);
-            SortedList<int, Interval> intervals = new SortedList<int, Interval>();
-            intervals.Add(0, new Interval(2));
-            intervals.Add(1, new Interval(2));
-            intervals.Add(2, new Interval(1));
-            intervals.Add(3, new Interval(2));
-            intervals.Add(4, new Interval(2));
-            intervals.Add(5, new Interval(2));
-            intervals.Add(6, new Interval(1));
-            Scale scale = new Scale(note, intervals);
+            const string intervalRepresentation = "2 2 1 2 2 2 1";
+            const string noteRepresentation = "FSharp GSharp ASharp B CSharp DSharp ESharp FSharp";
+            Note rootNote = new Note(Notes.FSharp);
 
-            Assert.AreEqual("F# G# A# B C# D# E# F# ", scale.GetNotation());
+            List<Interval> intervals = IntervalFactory.CreateIntervals(intervalRepresentation);
+            Scale scaleForIntervals = new Scale(rootNote, intervals);
+
+            List<Note> notes = NoteFactory.CreateNotes(noteRepresentation);
+            Scale scaleForNotes = new Scale(rootNote, notes);
+
+            Assert.AreEqual(noteRepresentation, scaleForIntervals.Notation);
+            Assert.AreEqual(intervalRepresentation, scaleForNotes.IntervalDisplay);
+            Assert.AreEqual(scaleForIntervals, scaleForNotes);
         }
 
         [TestMethod()]

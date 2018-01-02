@@ -4,3 +4,9 @@ D:\Code\MusicLibrary\MusicTheorySDK\obj\Debug\MusicTheorySDK.csproj.CoreCompileI
 D:\Code\MusicLibrary\MusicTheorySDK\obj\Debug\MusicTheorySDK.dll
 D:\Code\MusicLibrary\MusicTheorySDK\obj\Debug\MusicTheorySDK.pdb
 D:\Code\MusicLibrary\MusicTheorySDK\obj\Debug\MusicTheorySDK.csprojResolveAssemblyReference.cache
+D:\Code\repos\music\MusicLibrary\MusicTheorySDK\bin\Debug\MusicTheorySDK.dll
+D:\Code\repos\music\MusicLibrary\MusicTheorySDK\bin\Debug\MusicTheorySDK.pdb
+D:\Code\repos\music\MusicLibrary\MusicTheorySDK\obj\Debug\MusicTheorySDK.csproj.CoreCompileInputs.cache
+D:\Code\repos\music\MusicLibrary\MusicTheorySDK\obj\Debug\MusicTheorySDK.dll
+D:\Code\repos\music\MusicLibrary\MusicTheorySDK\obj\Debug\MusicTheorySDK.pdb
+D:\Code\repos\music\MusicLibrary\MusicTheorySDK\obj\Debug\MusicTheorySDK.csprojResolveAssemblyReference.cache
