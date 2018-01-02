@@ -42,7 +42,9 @@ D:\Code\repos\music\MusicLibrary\Demos\bin\Microsoft.AI.DependencyCollector.xml
 D:\Code\repos\music\MusicLibrary\Demos\bin\Microsoft.AI.ServerTelemetryChannel.xml
 D:\Code\repos\music\MusicLibrary\Demos\bin\Microsoft.AI.WindowsServer.xml
 D:\Code\repos\music\MusicLibrary\Demos\bin\Microsoft.AI.Web.xml
-D:\Code\repos\music\MusicLibrary\Demos\obj\Debug\Demos.csprojResolveAssemblyReference.cache
 D:\Code\repos\music\MusicLibrary\Demos\obj\Debug\Demos.csproj.CoreCompileInputs.cache
 D:\Code\repos\music\MusicLibrary\Demos\obj\Debug\Demos.dll
 D:\Code\repos\music\MusicLibrary\Demos\obj\Debug\Demos.pdb
+D:\Code\repos\music\MusicLibrary\Demos\bin\MusicTheorySDK.dll
+D:\Code\repos\music\MusicLibrary\Demos\bin\MusicTheorySDK.pdb
+D:\Code\repos\music\MusicLibrary\Demos\obj\Debug\Demos.csprojResolveAssemblyReference.cache

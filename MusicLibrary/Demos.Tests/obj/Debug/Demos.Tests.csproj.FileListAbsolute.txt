@@ -39,3 +39,5 @@ D:\Code\repos\music\MusicLibrary\Demos.Tests\obj\Debug\Demos.Tests.csprojResolve
 D:\Code\repos\music\MusicLibrary\Demos.Tests\obj\Debug\Demos.Tests.csproj.CoreCompileInputs.cache
 D:\Code\repos\music\MusicLibrary\Demos.Tests\obj\Debug\Demos.Tests.dll
 D:\Code\repos\music\MusicLibrary\Demos.Tests\obj\Debug\Demos.Tests.pdb
+D:\Code\repos\music\MusicLibrary\Demos.Tests\bin\Debug\MusicTheorySDK.dll
+D:\Code\repos\music\MusicLibrary\Demos.Tests\bin\Debug\MusicTheorySDK.pdb

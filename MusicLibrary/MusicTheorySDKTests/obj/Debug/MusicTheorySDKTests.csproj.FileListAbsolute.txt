@@ -13,10 +13,6 @@ D:\Code\MusicLibrary\MusicTheorySDKTests\obj\Debug\MusicTheorySDKTests.csprojRes
 D:\Code\MusicLibrary\MusicTheorySDKTests\obj\Debug\MusicTheorySDKTests.csproj.CoreCompileInputs.cache
 D:\Code\MusicLibrary\MusicTheorySDKTests\obj\Debug\MusicTheorySDKTests.dll
 D:\Code\MusicLibrary\MusicTheorySDKTests\obj\Debug\MusicTheorySDKTests.pdb
-D:\Code\repos\music\MusicLibrary\MusicTheorySDKTests\obj\Debug\MusicTheorySDKTests.csprojResolveAssemblyReference.cache
-D:\Code\repos\music\MusicLibrary\MusicTheorySDKTests\obj\Debug\MusicTheorySDKTests.csproj.CoreCompileInputs.cache
-D:\Code\repos\music\MusicLibrary\MusicTheorySDKTests\obj\Debug\MusicTheorySDKTests.dll
-D:\Code\repos\music\MusicLibrary\MusicTheorySDKTests\obj\Debug\MusicTheorySDKTests.pdb
 D:\Code\repos\music\MusicLibrary\MusicTheorySDKTests\bin\Debug\Microsoft.VisualStudio.TestPlatform.MSTest.TestAdapter.dll
 D:\Code\repos\music\MusicLibrary\MusicTheorySDKTests\bin\Debug\Microsoft.VisualStudio.TestPlatform.MSTestAdapter.PlatformServices.Interface.dll
 D:\Code\repos\music\MusicLibrary\MusicTheorySDKTests\bin\Debug\Microsoft.VisualStudio.TestPlatform.MSTestAdapter.PlatformServices.dll
@@ -28,3 +24,7 @@ D:\Code\repos\music\MusicLibrary\MusicTheorySDKTests\bin\Debug\MusicTheorySDK.dl
 D:\Code\repos\music\MusicLibrary\MusicTheorySDKTests\bin\Debug\MusicTheorySDK.pdb
 D:\Code\repos\music\MusicLibrary\MusicTheorySDKTests\bin\Debug\Microsoft.VisualStudio.TestPlatform.TestFramework.xml
 D:\Code\repos\music\MusicLibrary\MusicTheorySDKTests\bin\Debug\Microsoft.VisualStudio.TestPlatform.TestFramework.Extensions.xml
+D:\Code\repos\music\MusicLibrary\MusicTheorySDKTests\obj\Debug\MusicTheorySDKTests.csprojResolveAssemblyReference.cache
+D:\Code\repos\music\MusicLibrary\MusicTheorySDKTests\obj\Debug\MusicTheorySDKTests.csproj.CoreCompileInputs.cache
+D:\Code\repos\music\MusicLibrary\MusicTheorySDKTests\obj\Debug\MusicTheorySDKTests.dll
+D:\Code\repos\music\MusicLibrary\MusicTheorySDKTests\obj\Debug\MusicTheorySDKTests.pdb

@@ -1,15 +1,76 @@
-﻿<div class="jumbotron">
-    <h1>Western Classical Music System</h1>
-    <p class="lead">Here are the most popular scales and modes of Western Classical Music.</p>
+﻿@model List<List<Demos.Models.ScaleModel>>
+
+<!-- Page Header-->
+<header class="page-header">
+    <div class="container-fluid">
+        <h2 class="no-margin-bottom">Western Classical Music</h2>
+    </div>
+</header>
+<!-- Breadcrumb-->
+<div class="breadcrumb-holder container-fluid">
+    <ul class="breadcrumb">
+        <li class="breadcrumb-item">@Html.ActionLink("Western Classical", "Index", "Home", new { area = "" }, null)</li>
+    </ul>
 </div>
-<div class="row">
-    <div class="col-md-4">
-        <h2>Major Scales</h2>
+<section class="tables">
+    <div class="container-fluid">
+        <div class="row">
+            <div class="col-lg-6">
+                <div class="card">
+                    <div class="card-header d-flex align-items-center">
+                        <h3 class="h4">Major Scales</h3>
+                    </div>
+                    <div class="card-body">
+                        <p>Intervals: @ViewBag.MajorIntervals</p>
+                        <p>Incomplete scales below are theoritical scales that have at least one double sharp note.</p>
+                        <table class="table">
+                            <thead>
+                                <tr>
+                                    <th>Name</th>
+                                    <th>Notes</th>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                @foreach (var item in Model[0])
+                                {
+                                    <tr>
+                                        <td>@item.Name</td>
+                                        <td>@item.Notes</td>
+                                    </tr>
+                                }
+                                </tbody>
+                            </table>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-6">
+                <div class="card">
+                    <div class="card-header d-flex align-items-center">
+                        <h3 class="h4">Natural Minor Scales</h3>
+                    </div>
+                    <div class="card-body">
+                        <p>Intervals: @ViewBag.NaturalMinorIntervals</p>
+                        <table class="table">
+                            <thead>
+                                <tr>
+                                    <th>Name</th>
+                                    <th>Notes</th>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                @foreach (var item in Model[1])
+            {
+                    <tr>
+                        <td>@item.Name</td>
+                        <td>@item.Notes</td>
+                    </tr>
+}
+                            </tbody>
+                        </table>
+                    </div>
+                </div>
+            </div>
+        </div>
     </div>
-    <div class="col-md-4">
-        <h2>Natural Minor Scales</h2>
-    </div>
-    <div class="col-md-4">
-        <h2>Modes</h2>
-    </div>
-</div>
+</section>
+
