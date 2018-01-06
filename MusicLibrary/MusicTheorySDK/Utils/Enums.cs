@@ -4,6 +4,10 @@ namespace MusicTheorySDK.Utils
 {
     public enum Notes
     {
+        [Position(10)]
+        [NoteOf('C')]
+        [Description("C♭♭")]
+        CFlatFlat,
         [Position(11)]
         [NoteOf('C')]
         [Description("C♭")]
@@ -15,6 +19,14 @@ namespace MusicTheorySDK.Utils
         [NoteOf('C')]
         [Description("C♯")]
         CSharp,
+        [Position(2)]
+        [NoteOf('C')]
+        [Description("C♯♯")]
+        CSharpSharp,
+        [Position(0)]
+        [NoteOf('D')]
+        [Description("D♭♭")]
+        DFlatFlat,
         [Position(1)]
         [NoteOf('D')]
         [Description("D♭")]
@@ -26,6 +38,14 @@ namespace MusicTheorySDK.Utils
         [NoteOf('D')]
         [Description("D♯")]
         DSharp,
+        [Position(4)]
+        [NoteOf('D')]
+        [Description("D♯♯")]
+        DSharpSharp,
+        [Position(2)]
+        [NoteOf('E')]
+        [Description("E♭♭")]
+        EFlatFlat,
         [Position(3)]
         [NoteOf('E')]
         [Description("E♭")]
@@ -37,6 +57,14 @@ namespace MusicTheorySDK.Utils
         [NoteOf('E')]
         [Description("E♯")]
         ESharp,
+        [Position(6)]
+        [NoteOf('E')]
+        [Description("E♯♯")]
+        ESharpSharp,
+        [Position(3)]
+        [NoteOf('F')]
+        [Description("F♭♭")]
+        FFlatFlat,
         [Position(4)]
         [NoteOf('F')]
         [Description("F♭")]
@@ -48,6 +76,14 @@ namespace MusicTheorySDK.Utils
         [NoteOf('F')]
         [Description("F♯")]
         FSharp,
+        [Position(7)]
+        [NoteOf('F')]
+        [Description("F♯♯")]
+        FSharpSharp,
+        [Position(5)]
+        [NoteOf('G')]
+        [Description("G♭♭")]
+        GFlatFlat,
         [Position(6)]
         [NoteOf('G')]
         [Description("G♭")]
@@ -59,6 +95,14 @@ namespace MusicTheorySDK.Utils
         [NoteOf('G')]
         [Description("G♯")]
         GSharp,
+        [Position(9)]
+        [NoteOf('G')]
+        [Description("G♯♯")]
+        GSharpSharp,
+        [Position(7)]
+        [NoteOf('A')]
+        [Description("A♭♭")]
+        AFlatFlat,
         [Position(8)]
         [NoteOf('A')]
         [Description("A♭")]
@@ -70,6 +114,14 @@ namespace MusicTheorySDK.Utils
         [NoteOf('A')]
         [Description("A♯")]
         ASharp,
+        [Position(11)]
+        [NoteOf('A')]
+        [Description("A♯♯")]
+        ASharpSharp,
+        [Position(9)]
+        [NoteOf('B')]
+        [Description("B♭♭")]
+        BFlatFlat,
         [Position(10)]
         [NoteOf('B')]
         [Description("B♭")]
@@ -80,7 +132,11 @@ namespace MusicTheorySDK.Utils
         [Position(0)]
         [NoteOf('B')]
         [Description("B♯")]
-        BSharp
+        BSharp,
+        [Position(1)]
+        [NoteOf('B')]
+        [Description("B♯♯")]
+        BSharpSharp
     }
 
     public enum Intervals
